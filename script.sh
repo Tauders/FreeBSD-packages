@@ -5,7 +5,7 @@ pkg update
 echo '----------------------------------'
 echo 'Install packages'
 echo '----------------------------------'
-pkg install -y mc qpopper ntp mutt apache24 samba42 x11/kde4 wireshark opera isc-dhcp43-server bind910
+pkg install -y ca_root_nss mc qpopper ntp mutt apache24 samba42 x11/kde4 wireshark opera isc-dhcp43-server bind910
 echo '----------------------------------'
 echo 'Generate BIND "secret" key'
 echo '----------------------------------'
